@@ -10,10 +10,10 @@ import numpy as np
 
 #tlts = st.text_input('Input your movie name here and press enter')
 
-tf = pd.read_csv('./data/tf16-18.csv')
+tf = pd.read_csv('./data/tf14-18.csv')
 tf.shape
 
-cosine_sim = np.load('./data/movieMatrix16-18.npy')
+cosine_sim = np.load('./data/movieMatrix14-18.npy')
 cosine_sim.shape
 
 tf = tf.reset_index()
